@@ -1,7 +1,5 @@
 package ru.java.courses;
 
-/* import java.util.Arrays;*/
-
 class Lesson2b {
 
     public static void main(String[] args) {
