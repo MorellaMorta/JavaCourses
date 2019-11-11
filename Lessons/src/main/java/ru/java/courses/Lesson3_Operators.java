@@ -17,12 +17,25 @@ public class Lesson3_Operators {
      * - получить длину строки можно методом .length()
      * - получить первые n символов из строки можно методом .substring(0, n)
      */
-    public static String task1(int i, String str) {
+    // public static String task1(int i, String str) {
         // свой код нужно писать тут
         // следующую строку можно удалять
-        return null;
-    }
+    // return null;
+    // }
+    public static void main(String[] args) {
+        // task 1
+        int i = 24; String s = "abcde";
+        String result = i > 0 ? (s + i) : (i < 0 ? (i + s) : "0");
+        // result = result.length() <= 10 ? result : result.substring(0, 10);
+        System.out.println(result.length() <= 10 ? result : result.substring(0, 10));
 
+        // task 2
+        int a = 101;
+        --a;
+        a = (a > 100 || a < 30) ? (a + 1000) : ((a > 0 && (a % 2 == 0)) ? (a - 1000) : a);
+        boolean b = a < 0;
+        System.out.println(!b);
+    }
     /**
      * В этом методе необходимо реализовать следующий алгоритм:
      * 1. Получаем целое число
@@ -36,11 +49,11 @@ public class Lesson3_Operators {
      * <p>
      * Подсказка: тут все просто, думайте сами ;)
      */
-    public static boolean task2(int i) {
+  /*  public static boolean task2(int i) {
         // свой код нужно писать тут
         // следующую строку можно удалять
         return false;
-    }
+    }*/
 
 
 }
